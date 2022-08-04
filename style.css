@@ -181,6 +181,8 @@ p + p {
     border-radius: 12px;
     padding-bottom: 9px;
     font-size: calc(.584vw + 10.5%);
+    box-shadow: 2px 2px 8px #0000008f;
+
 }
 
 
