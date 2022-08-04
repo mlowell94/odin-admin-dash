@@ -102,7 +102,7 @@ li + li {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 0.05fr repeat(3, 190px);
-    gap: 19px;
+    gap: 30px;
     padding: 30px;
     padding-right: 0;
 }
