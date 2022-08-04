@@ -4,58 +4,172 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Admin Dashboard</title>
+    <title>admin dashboard!</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <div class="wrapper">
         <div class="header">
             <div class="search">
-                <label for="search">? ?</label>
+                <label for="search" style="height: 29px; width: 48px;"><img src="images/magnify.png" alt="Search" style="height: 100%;"></label>
                 <input type="text" name="search" id="search">
             </div>
-            <div class="notifs">
-                <img src="images/slowp.png" alt="slowpoke" style="width: 5%;">
-                <span>first last</span>
+            <div class="notifications">
+                <img src="images/bell-ring-outline.png" alt="Notifications" style="height: 40%;">
+                <img src="images/avi1.png" alt="Profile" style="width: 13%; border-radius: 50%;">
+                <p><strong>Slowpoke</strong></p>
             </div>
             <div class="welcome">
-                <img src="images/slowp.png" alt="slowpoke" style="width: 10%;">
-                <div class="t-cont">
-                    <p>Hi there,</p>
-                    <h2>first last (@USER)</h2>
+                <img src="images/avi1.png" alt="Profile" style="width: 9%;border-radius: 50%;margin-right: 30px;margin-bottom: 13px;">
+                <div>
+                    <h3 style="margin: 0">Welcome,</h3>
+                    <h1 style="margin-top: 6px;">Slowpoke (@yadon)</h1>
                 </div>
             </div>
             <div class="buttons">
-                <button>new</button>
-                <button>upload</button>
-                <button>share</button>
+                <button>New</button>
+                <button>Upload</button>
+                <button>Share</button>
             </div>
         </div>
         <div class="sidebar">
-            <h1>Dashboard</h1>
             <ul>
-                <li>home</li>
-                <li>profile</li>
-                <li>messages</li>
-                <li>history</li>
-                <li>tasks</li>
-                <li>communities</li>
+                <li><img src="images/view-dashboard.png" alt="Dashboard"> Dashboard</li>
             </ul>
             <ul>
-                <li>settings</li>
-                <li>support</li>
-                <li>privacy</li>
+                <li><img src="images/home.png" alt="Home"> home</li>
+                <li><img src="images/card-account-details-outline.png" alt="Profile"> profile</li>
+                <li><img src="images/message-reply.png" alt="Messages"> messages</li>
+                <li><img src="images/clock-time-three.png" alt="History"> history</li>
+                <li><img src="images/note-multiple.png" alt="Tasks"> tasks</li>
+                <li><img src="images/account-group.png" alt="Communities"> communities</li>
+            </ul>
+            <ul>
+                <li><img src="images/cog.png" alt="Settings"> settings</li>
+                <li><img src="images/help-box.png" alt="Support"> support</li>
+                <li><img src="images/shield-check.png" alt="Privacy"> privacy</li>
             </ul>
         </div>
         <div class="content">
             <div class="projects">
-                <h3>your projects</h3>
-                <div>p1</div>
-                <div>p2</div>
-                <div>p3</div>
-                <div>p4</div>
-                <div>p5</div>
-                <div>p6</div>
+                <h5 style="grid-column: 1 / 3;margin: 0;font-size: 28px;">your projects</h5>
+                <div class="project">
+                    <h4>Super Cool Project</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                        Aenean sed adipiscing diam donec adipiscing tristique risus nec feugiat. Accumsan sit amet nulla facilisi morbi tempus iaculis.</p>
+                        <div class="options">
+                            <img src="images/star-plus-outline.png" alt="Add to favorites">
+                            <img src="images/eye-plus-outline.png" alt="Watch this project">
+                            <img src="images/share-variant-outline.png" alt="Share this project">
+                        </div>
+                </div>
+                <div class="project">
+                    <h4>Not-as-cool Project</h4>
+                    <p>Sed a quam sit amet lectus interdum interdum et at nulla. 
+                        Curabitur lorem quam, laoreet ac enim varius, elementum ornare felis. Fusce orci massa, pharetra sed faucibus a, vulputate non massa. Donec dictum pulvinar euismod. In eu.
+                    </p>
+                        <div class="options">
+                            <img src="images/star-plus-outline.png" alt="Add to favorites">
+                            <img src="images/eye-plus-outline.png" alt="Watch this project">
+                            <img src="images/share-variant-outline.png" alt="Share this project">
+                        </div>
+                </div>
+                <div class="project">
+                    <h4>Fun Application</h4>
+                    <p>Nullam sagittis nisi sem, sit amet dictum nulla gravida in. In nec aliquam nulla. Nulla pretium lacus volutpat mi sollicitudin scelerisque. 
+                        Duis congue laoreet elit, id venenatis mi consectetur ultricies. Nulla mi nisl, iaculis vel commodo quis.
+                    </p>
+                        <div class="options">
+                            <img src="images/star-plus-outline.png" alt="Add to favorites">
+                            <img src="images/eye-plus-outline.png" alt="Watch this project">
+                            <img src="images/share-variant-outline.png" alt="Share this project">
+                        </div>
+                </div>
+                <div class="project">
+                    <h4>Business Project</h4>
+                    <p>Etiam eu quam ut quam ornare faucibus at sed lorem. Curabitur molestie ex hendrerit odio pellentesque mollis. 
+                        Pellentesque porta volutpat dolor, rutrum tempor lorem gravida et. Ut aliquet mauris nec sem sagittis molestie. Nulla ultricies tellus ac.
+                    </p>
+                        <div class="options">
+                            <img src="images/star-plus-outline.png" alt="Add to favorites">
+                            <img src="images/eye-plus-outline.png" alt="Watch this project">
+                            <img src="images/share-variant-outline.png" alt="Share this project">
+                        </div>
+                </div>
+                <div class="project">
+                    <h4>Personal Portfolio</h4>
+                    <p>Mauris gravida pulvinar odio, quis aliquet enim semper id. Proin cursus orci a massa convallis, quis fermentum arcu consectetur. 
+                        Vivamus viverra et ligula at facilisis. Nullam eget ultrices orci. Fusce a neque tincidunt, posuere turpis et, lacinia.
+                    </p>
+                        <div class="options">
+                            <img src="images/star-plus-outline.png" alt="Add to favorites">
+                            <img src="images/eye-plus-outline.png" alt="Watch this project">
+                            <img src="images/share-variant-outline.png" alt="Share this project">
+                        </div>
+                </div>
+                <div class="project">
+                    <h4>Ad Blocker</h4>
+                    <p>Cras sollicitudin convallis gravida. Curabitur posuere eros lacus, a cursus felis pellentesque id. 
+                        Quisque sed gravida metus, nec maximus felis. Cras vel orci elementum, venenatis sapien sit amet, vulputate augue. Donec quis laoreet velit. Sed tortor lacus.
+                    </p>
+                        <div class="options">
+                            <img src="images/star-plus-outline.png" alt="Add to favorites">
+                            <img src="images/eye-plus-outline.png" alt="Watch this project">
+                            <img src="images/share-variant-outline.png" alt="Share this project">
+                        </div>
+                </div>
+            </div>
+            <div class="side-content">
+                <div class="announcements">
+                    <h5 style="font-size: 28px;margin: 0;display: grid;">Announcements</h5>
+                    <div class="entries">
+                        <div style="padding: 20px;">
+                            <h4>Site Maintenance</h4>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                        </div>
+                        <div style="padding: 0 20px;">
+                            <h4>Community Share Day</h4>
+                            <p>Voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in cu...</p>
+                        </div>
+                        <div style="padding: 20px;">
+                            <h4>Updated Privacy Policy</h4>
+                            <p style="border: none;">Cras at scelerisque quam. Mauris eleifend tortor id nibh gravida, eu fermentum neque pretium. Nunc egestas...</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="trending">
+                    <h5 style="font-size: 28px; margin: 0;">Trending</h5>
+                    <div class="entities" style="padding-left: 30px">
+                        <div class="entity">
+                            <img src="images/avi2.png" alt="yadon">
+                            <div>
+                                <p><strong>@slowpoke</strong></p>
+                                <p>Taking it easy</p>
+                            </div>
+                        </div>
+                        <div class="entity">
+                            <img src="images/avi1.png" alt="slowpoke">
+                            <div>
+                                <p><strong>@yadon</strong></p>
+                                <p>Gone fishing</p>
+                            </div>                        
+                        </div>
+                        <div class="entity">
+                            <img src="images/avi3.png" alt="slowpoke">
+                            <div>
+                                <p><strong>@ramoloss</strong></p>
+                                <p>Immune to pain</p>
+                            </div>                        
+                        </div>
+                        <div class="entity">
+                            <img src="images/avi4.jpg" alt="slowpoke">
+                            <div>
+                                <p><strong>@dullbeast</strong></p>
+                                <p>[incomprehensible]</p>
+                            </div>                        
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
